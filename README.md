@@ -17,7 +17,5 @@ How to install gnome desktop via ParrotOS - Comming SONE.
 
 <img width="1920" height="1080" alt="PARROT-7 3-GNOME" src="https://github.com/user-attachments/assets/7963b278-fbfe-4697-9b5a-2e4c0fd44c5c" />
 
-
-Kind Regards Mattias Vinberg - STOCKHOLM - SWEDEN
-MAIL: mattiasvinberg@duck.com
-Here you have me: https://github.com/vinberg88
+  
+   Regards Mattias Vinberg - STOCKHOLM - SWEDEN - MAIL: mattiasvinberg@duck.com - Here is me: https://github.com/vinberg88
