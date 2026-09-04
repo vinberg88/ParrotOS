@@ -1,4 +1,4 @@
-# Parrot OS - WSL image for download an setup desktops
+# Parrot OS - WSL image for download and setup desktops
 
 Download ParrotOS here for WSL: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
 
