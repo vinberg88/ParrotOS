@@ -1,0 +1,335 @@
+ParrotOS and GNOME - Install GNOME via WSL and Parrot OS 7.3 - Windows - Linux - YouTube - 2026
+
+Find ParrotOS here and download: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
+
+Watch more desktops for Parrot OS: https://github.com/vinberg88/ParrotOS
+
+How to inställ GNOME via Parrot Security 7.3 and Windows - WSL - LINUX - TEXT via GitHUB
+Comming SONE.
+
+How to install GNOME via Parrot Security 7.3 and Windows - WSL - LINUX - MOVIE VIA YouTUBE
+https://www.youtube.com/watch?v=J1jZ1auCkxw
+
+Tools that i USE - Parrot Security 7.3 and GNOME desktop
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+  `:oho/-`                                 OS: Parrot Security 7.3 x86_64 - Parrot SEC - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for GNOME
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - Gnome desktop via Parrot OS
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory: 16.33 GiB / 33.42 GiB (52%)
+                           d:
+
+
+About Parrot OS or Parrot Security 7.3 - https://www.parrotsec.org
+
+Parrot Security provides a huge arsenal of tools, utilities and
+libraries that IT and security professionals can use to test and
+assess the security of their assets in a reliable, compliant and 
+reproducible way. From information gathering to the final report.
+The Parrot system gets you covered with the most flexible environment.
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About GNOME desktop for Parrot OS 7.3 - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find me here: https://github.com/vinberg88
+
+Find other desktops to use: https://github.com/vinberg88/opensuse
+
+You Can Find More Stuff here About WSL2 - https://github.com/vinberg88/ParrotOS
+
+-----------------------------
+
+NOW LETS START INSTALLATION FOR Gnome AND Parrot Security OS 7.3
+
+Download ParrotOS here: https://github.com/vinberg88/ParrotOS
+
+Press the blue Icon and you are done: Setup User and Password.
+
+-----------------------------------------------------
+
+Copy and Paste in terminal and enable systemd
+
+sudo nano /etc/wsl.conf
+
+and change systemd to true
+
+[boot]
+systemd=true
+
+----------------------------------------------
+
+Set password for root and user. You will be glad you did this for ParrotOS
+
+sudo passwd root
+
+sudo passwd adolf  <-- change adolf to your name.
+
+-----------------------------------------------------
+
+Update Parrot Security 7.3 - GNOME
+
+sudo apt update && sudo apt full-upgrade -y
+
+-----------------------------------------------------
+
+Dbus problem fix =) install all. You will get an error but we fix that i next step. THIS WILL TAKE SOME TIME...
+
+sudo apt install systemd dbus-* dbus-broker* dbus-daemon* dbus* systemd-resolved -y
+
+----------------------------------------------
+
+Fix THIS error for PARROT OS 7.3
+
+Job for dbus-broker.service failed. See "systemctl status dbus-broker.service" and
+"journalctl -xeu dbus-broker.service" for details.
+
+Copy and paste in terminal. ONE BY ONE NO STRESS...
+
+sudo systemctl disable --now dbus-broker.service
+
+sudo systemctl enable --now dbus.service
+
+sudo systemctl restart dbus.service
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot Security OS 7.3
+
+----------------------------------------------
+
+Some Tools for Parrot Security 7.3 and GNOME - Install all for Parrot OS.
+
+sudo apt update -y
+sudo apt install bash dracut npm git wget curl python3-pip pipx htop rsync p7zip-full bluez* avahi* polkitd* gradle* -y
+sudo apt install gdm3* tasksel -y
+sudo apt install gdm* -y
+sudo apt install xorg* x11* tasksel -y
+sudo systemctl set-default graphical
+
+------------------------------------------------
+
+Install extra programs for PARRROT OS 7.3 and GNOME - This will take some time to install.
+
+Copy and paste: sudo tasksel
+
+Select Parrot Desktop Environment and GNOME - Press enter to start ParrotOS 7.3 and gnome installation.
+
+------------------------------------------------
+
+Install Hyfetch like Neofetch but more fun - Parrot OS Security 7.3 - ParrotOS 7.3
+
+sudo apt install fastfetch hyfetch lpr ffmpeg grads libwmf-bin libraw-bin compface dictd brotli dict w3m-el povray cmigemo dict-wn xsel gawk wl wv -y 
+
+Test by paste fastfetch in Console / Terminal: fastfetch
+                                         
+  `:oho/-`                                 OS: Parrot Security 7.3 x86_64
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for GNOME
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - Gnome desktop via Parrot OS
+                       `NMMMMMM+           
+                        +MMd/NMh           https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory: 16.33 GiB / 33.42 GiB (52%)
+                           d:
+------------------------------------------------
+
+Install Chrome Browser - Parrot Security 7.3 - ParrotOS 7.3
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Visual studio code - Install for Parrot Security 7.3- ParrotOS 7.3
+
+sudo apt-get install wget* gpg* -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https* http* -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Install Gimp and LibreOffice - Parrot Security 7.3 and Gnome Desktop - ParrotOS 7.3 - 2026
+
+sudo apt install gimp libreoffice -y
+
+--------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking - ParrotOS 7.3
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+------------------------------------------------
+
+Time to install Gnome Desktop for Parrot OS 7.3
+
+sudo apt install gnome -y
+sudo apt install gnome* -y
+
+------------------------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig 
+
+Last lines is WSL ip. Save IP from powershell here: 172.30.16.1
+
+Now go back to Parrots OS Terminal - Parrot Security 7.3
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip here Powershell and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for ParrotOS 7.3 and WSL - 2026
+
+----------------------------------------------
+
+Then Copy and Paste in Terminal for Parrot Security 7.3
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Parrot OS 7.3 - GNOME - ParrotSEC - Parrot Security 7.3 - ParrotOS 7.3
+
+Type this in terminal and put your user there - sudo loginctl enable-linger adolf
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+
+Then add this script to terminal For PARROT OS 7.3 and GNOME DESKTOP.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot Security 7.3 - Reboot Reboot Reboot Parrot Security 7.3
+
+----------------------------------------------
+
+Nov Start GNOME Desktop via Parrot Security 7.1
+
+NOTE: FIRST START X410 THEN YOU START PARROT OS TERMINAL.
+
+Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_parrot_desktop
+
+Paste in terminal: dbus-launch gnome-session
+
+----------------------------------------------
+
+Thank you! ❤️ for watching - 2026 - ParrotOS is build on Debian OS - Trusted.
+
+
+  `:oho/-`                                 OS: Parrot Security 7.3 x86_64
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for GNOME desktop
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - Gnome desktop via Parrot OS
+                       `NMMMMMM+           
+                        +MMd/NMh           https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory: 16.33 GiB / 33.42 GiB (52%)
+                           d:
+
+
+---------------------------------------------
+
+Thank you for being a part of the Parrot Security 7.3 and GNOME desktop for WSL2.
+
+Find more for ParrotOS here: https://github.com/vinberg88/ParrotOS
+
+---------------------------------------------
