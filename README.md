@@ -13,7 +13,7 @@ to develop your own software or keep your data secure
 
 HERE I WILL PRESENT SOME DESKTOPS THAT WORK WELL VIA PARROTOS - Latest version.
 
-How to install gnome desktop via ParrotOS - Comming SONE.
+Install gnome desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
 
 <img width="1920" height="1080" alt="PARROT-7 3-GNOME" src="https://github.com/user-attachments/assets/7963b278-fbfe-4697-9b5a-2e4c0fd44c5c" />
 
