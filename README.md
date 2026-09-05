@@ -2,7 +2,7 @@
 
 Download ParrotOS here for WSL: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
 
-Parrot OS - Build diffrent desktops via ParrotOS and WSL - Parots OS easy to work on and build from Debian. Build from KDE to GNOME desktop via WSL
+Parrot OS - Build diffrent desktops via ParrotOS and WSL - Parrots OS easy to work on and build from Debian. Build from KDE to GNOME desktop via WSL
 from microsoft. Over 50 million downloads worldwide and a decade of continuous development make Parrot one of the most trusted security platforms. 
 It’s used daily by penetration testers, researchers, students, and enterprises who need a reliable environment for cybersecurity and privacy.​​​​
 ParrotOS is a GNU/Linux distribution based on Debian and designed with Security, Privacy, and Development in mind. It includes a full portable laboratory
