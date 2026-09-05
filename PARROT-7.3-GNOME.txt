@@ -5,7 +5,7 @@ Find ParrotOS here and download: https://github.com/vinberg88/ParrotOS/releases/
 Watch more desktops for Parrot OS: https://github.com/vinberg88/ParrotOS
 
 How to inställ GNOME via Parrot Security 7.3 and Windows - WSL - LINUX - TEXT via GitHUB
-Comming SONE.
+https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
 
 How to install GNOME via Parrot Security 7.3 and Windows - WSL - LINUX - MOVIE VIA YouTUBE
 https://www.youtube.com/watch?v=J1jZ1auCkxw
