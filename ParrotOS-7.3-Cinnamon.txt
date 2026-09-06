@@ -1,0 +1,361 @@
+ParrotOS 7.3 and Cinnamon - WSL - How to install Cinnamon Desktop via Windows 11 and ParrotOS - Linux - X410 - 2026
+
+Find ParrotOS here for WSL: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
+
+Watch more desktops for ParrotOS: https://github.com/vinberg88/ParrotOS
+
+How to install Cinnamon Desktop via ParrotOS 7.3 - WSL - TEXT ViA GitHUB
+Comming Sone..
+
+How to install Cinnamon Desktop via ParrotOS 7.3 - WSL - MOVIE VIA YouTUBE
+https://www.youtube.com/watch?v=6McVGvgt5gE
+
+Tools that i USE for WSL - ParrotOS 7.3 and MATE desktop - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - Free tool like RAFT WSL. Install Distros and other stuff. WSL UI rice Tool.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=en-US&gl=US
+
+ `:oho/-`SWEDEN                            OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for MATE
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - MATE desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory: 16.33 GiB / 33.42 GiB (52%) - MATE and ParrotOS - 2026
+                           d:              
+
+About ParrotOS - https://parrotsec.org - Parrot SEC - 2026
+
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is available in three main 
+editions, Security, Home and Architect Edition, even as
+Virtual Machine (Virtual Box, Parallels and VMware), on
+Raspberry Pi and also on Docker and WSL for Microsoft.
+The first public release ParrotOS appeared on April
+10th, 2013 as the result of the work of Lorenzo Faletra who
+continues to lead development.
+
+About Cinnamon from Mint - https://linuxmint.com/rel_zena_whatsnew.php
+
+Cinnamon is a free and open-source desktop from Linux Mint.
+environment for Linux and other Unix-like operating systems,
+which was originally based on GNOME 3, but follows traditional
+desktop metaphor conventions. Cinnamon is a Linux desktop that
+provides advanced innovative features and a traditional user
+experience. The desktop layout is similar to Gnome 2 with
+underlying technology forked from Gnome Shell. Cinnamon makes
+users feel at home with an easy-to-use and comfortable desktop 
+experience.
+
+Want more stuff for WSL and Linux: https://github.com/vinberg88/opensuse
+
+Watch more desktops for ParrotOS: https://github.com/vinberg88/ParrotOS
+
+-----------------------------------------------------
+
+NOW LETS START INSTALLATION FOR Cinnamon desktop AND Parrot Security OS 7.3
+
+Download ParrotOS via this link: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
+
+Press the blue Icon and you are almost done. Setup User and Password.
+
+-----------------------------------------------------
+
+Paste in terminal and enable systemd for ParrotOS.
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+---------------------------------------
+
+Update All its time
+
+sudo apt update && sudo apt full-upgrade
+
+-----------------------------------------------------
+
+Dbus problem fix =) install all. You will get an error but we fix that i next step. ParrotOS 7.3 and Cinnamon desktop.
+
+sudo apt install systemd dbus-* dbus-broker* dbus-daemon* dbus* systemd-resolved -y
+
+----------------------------------------------
+
+Fix THIS error for Parrot OS 7.3 and Cinnamon Desktop.
+
+Job for dbus-broker.service failed.
+See "systemctl status dbus-broker.service" and "journalctl -xeu dbus-broker.service" for details.
+
+Copy and paste in terminal. ONE BY ONE NO STRESS for ParrotOS 7.3
+
+sudo systemctl disable --now dbus-broker.service
+
+sudo systemctl enable --now dbus.service
+
+sudo systemctl restart dbus.service
+
+----------------------------------------------
+
+Reboot ParrotOS - Reboot ParrotOS - Reboot ParrotOS
+
+----------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress.
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+NOTE - Importent to look for ip-adress. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+SAVE IP FROM POWERSHELL HERE, YOU NEED IT LATER IN INSTALLATION OF MATE DESKTOP: 172.30.16.1
+
+NOW GO BACK TO Parrot OS 7.3 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip-number for WSL here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed Parrot OS 7.3 and Cinnamon desktop =]
+
+-------------------------------------------------------------
+
+Now we can install Cinnamon Desktop ParrotOS. This will take some time to install.
+
+sudo apt install task-cinnamon-desktop
+
+sudo apt install cinnamon*
+
+--------------------------------
+
+Install Taskesl so we can intall full setup for Cinnamon desktop and ParrotOS.
+
+sudo apt install tasksel
+
+Run Tasksel: sudo tasksel
+
+Pick from menu when you run tasksel: Parrot Desktop Environment and Cinnamon option and press enter.
+
+--------------------------------
+
+Install programs
+
+sudo apt install bash git wget curl nano sudo pipx -y
+sudo apt install gdm3* -y
+sudo systemctl set-default graphical
+
+--------------------------------
+
+Install this small program.
+
+sudo apt install fastfetch
+
+Test by just type this in terminal: fastfetch
+
+  `:oho/-`SWEDEN                           OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for MATE
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - MATE desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory: 16.33 GiB / 33.42 GiB (52%) - MATE and ParrotOS - 2026
+                           d:              
+
+Extra Information - ParrotOS - Mate desktop - 2026
+
+Architecture: x86_64
+Built: 2026-06-25 Time: 17:27:16
+OS: Microsoft Azure Linux 3.0 - Wayland
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+
+--------------------------------
+
+Install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Gimp so we can PAINT
+
+sudo apt install gimp
+
+-------------------------------
+
+Install LIBREOFFICE - Office svit that works perfect on ParrotOS
+
+sudo apt install libreoffice
+
+-------------------------------
+
+Install Blanket - Listen to Sounds when you are hacking.
+
+sudo apt install blanket
+
+-------------------------------
+
+Install visual Studio Code for ParrotOS.
+
+Copy and paste to install Visual Studio Code for ParrotOS
+
+echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code
+
+-------------------------------
+
+Paste In Terminal - All - PARROT OS - 2026
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+-------------------------------
+
+Make an small script for ParrotOS.
+
+In terminal type: sudo nano ~/.bash_parrotOS_desktop
+
+Paste this in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+Reboot ParrotOS - Reboot ParrotOS - Reboot ParrotOS
+
+-------------------------------
+
+Time to start Cinnamon desktop via ParrotOS
+
+
+NOTE: FIRST START X410 xserver then you start ParrotOS terminal
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_parrotOS_desktop
+
+Paste in terminal: cinnamon-session
+
+
+IT TAKE SOME TIME FOR Cinnamon DESKTOP TO START. JUST WAIT - WALLPAPERS ETC WILL WORK WELL VIA PARROTOS - 2026
+
+-------------------------------
+
+ParrotOS is build on DEBIAN - WSL - Experience the full power of ParrotOS running under Windows - 2026
+
+  `:oho/-`SWEDEN                           OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for MATE
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - MATE desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory: 16.33 GiB / 33.42 GiB (52%) - MATE and ParrotOS - 2026
+                           d:              
+
+Extra Information - ParrotOS - Mate desktop - 2026
+
+Architecture: x86_64
+Built: 2026-06-25 Time: 17:27:16
+OS: Microsoft Azure Linux 3.0 - Wayland
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+
+Look for more desktops for ParrotOS - 2026 - https://github.com/vinberg88/ParrotOS
+
+Thank you for being a part of the ParrotOS 7.3 and MATE for WSL ❤️
+
+Regards Mattias Vinberg - ParrotOS 6.2 - WSL - GWSL - Cinnamon - Windows 11 - Linux - Sweden - 2026
+
+-------------------------------
+
