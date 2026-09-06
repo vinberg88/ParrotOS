@@ -351,11 +351,15 @@ mesa:            23.1.0
 pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
 weston:          a7e35fdab455dce5774b43b8aff682f748307e31
 
+Find me here: https://github.com/vinberg88
+
+EMAIL: mattiasvinberg@duck.com
+
 Look for more desktops for ParrotOS - 2026 - https://github.com/vinberg88/ParrotOS
 
-Thank you for being a part of the ParrotOS 7.3 and MATE for WSL ❤️
+Thank you for being a part of the ParrotOS 7.3 for WSL ❤️
 
-Regards Mattias Vinberg - ParrotOS 6.2 - WSL - GWSL - Cinnamon - Windows 11 - Linux - Sweden - 2026
+Regards Mattias Vinberg - ParrotOS 7.3 - WSL - X410 - Cinnamon - Windows 11 - Linux - Sweden - 2026
 
 -------------------------------
 
