@@ -1,7 +1,7 @@
 ParrotOS 7 and KDE 6 - How To install KDE via ParrotOS and Windows 11 - WSL - Linux - YouTube - 2026
 
 How to install KDE 6 PLASMA via PARROT OS 7.3 - WSL - TEXT VIA GITHUB
-Comming SONE..
+https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-KDE6.txt
 
 How to install KDE 6 PLASMA via PARROT OS 7.3 - WSL - MOVIE VIA YOUTUBE
 https://www.youtube.com/watch?v=8FAQJM9-OB4
