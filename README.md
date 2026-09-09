@@ -24,6 +24,10 @@ Install MATE desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/mai
 
 <img width="1920" height="1080" alt="ParrotOS-7 3-MATE" src="https://github.com/user-attachments/assets/fdd38f41-094a-45a7-ab93-1b44938728a0" />
 
+Install KDE 6 via ParrrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-KDE6.txt
+
+<img width="1920" height="1080" alt="PARROT-7 3-KDE6" src="https://github.com/user-attachments/assets/6b41af49-74f7-4189-9476-9f76dff5182a" />
+
 Install Cinnamon via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/ParrotOS-7.3-Cinnamon.txt
 
 <img width="1920" height="1080" alt="ParrotOS-7 3-Cinnamon" src="https://github.com/user-attachments/assets/06c55c07-13ef-4380-b77d-79df9130a7f2" />
