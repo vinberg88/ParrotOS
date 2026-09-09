@@ -1,0 +1,426 @@
+ParrotOS 7 and KDE 6 - How To install KDE via ParrotOS and Windows 11 - WSL - Linux - YouTube - 2026
+
+How to install KDE 6 PLASMA via PARROT OS 7.3 - WSL - TEXT VIA GITHUB
+Comming SONE..
+
+How to install KDE 6 PLASMA via PARROT OS 7.3 - WSL - MOVIE VIA YOUTUBE
+https://www.youtube.com/watch?v=8FAQJM9-OB4
+
+Find ParrotOS here for WSL: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
+
+Tools that i USE for WSL - ParrotOS 7.3 and KDE 6 - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - Free tool like RAFT WSL. Install Distros and other stuff. WSL UI rice Tool for Windows.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=en-US&gl=US
+
+ `:oho/-`SWEDEN                            OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for KDE 6 
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - KDE 6 Plasma desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory Linux US 16.33 GiB - Windows 11 33.42 GiB - KDE 6 and ParrotOS
+                           d:              
+
+About ParrotOS 7.3 - https://parrotsec.org - Parrot SEC - 2026
+
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is available in three main 
+editions, Security, Home and Architect Edition, even as
+Virtual Machine (Virtual Box, Parallels and VMware), on
+Raspberry Pi and also on Docker and WSL for Microsoft.
+The first public release ParrotOS appeared on April
+10th, 2013 as the result of the work of Lorenzo 
+Faletra who continues to lead development.
+
+About KDE 6 Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Want more stuff for WSL and Linux: https://github.com/vinberg88/opensuse
+
+Watch more desktops for ParrotOS: https://github.com/vinberg88/ParrotOS
+
+FIND ME HERE: https://github.com/vinberg88
+
+EMAIL: mattiasvinberg@duck.com
+
+-------------------------------
+
+NOW LETS START INSTALLATION FOR KDE 6 AND PARROT OS 7.3
+
+-------------------------------
+
+Download ParrotOS if you not already done that.
+
+Download ParrotOS here: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
+
+Press the Blue ICON and you are alomst done. Setup User and Password for ParrotOS
+
+-------------------------------
+
+Next thing you need to do is copy this file to C:\Users\yourusername
+
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. Open explorer
+
+2. Copy file
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy use Explorer and copy and past - DONE - 2026
+
+-------------------------------
+
+Go back to ParrotOS terminal. Copy and Paste in terminal and enable systemd.
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+and change systemd false to true
+
+[boot]
+systemd=true
+
+-------------------------------
+
+Set password for root and user. You will be glad you did this for KDE 6 and ParrotOS =]
+
+Type this in terminal - normal user and use same password for root and user.
+
+sudo passwd root
+
+sudo passwd adolf
+
+NOTE: SET SAME PASSWORD FOR ROOT AND USER.
+
+-------------------------------
+
+Update All its time - ParrotOS 7.3
+
+sudo apt update && sudo apt full-upgrade
+
+-------------------------------
+
+Now fix DBUS problems. You will get long install time if you not do this =)
+
+sudo apt install systemd dbus-* dbus-broker* dbus-daemon* dbus* systemd-resolved -y
+
+-------------------------------
+
+Next copy and paste this in terminal. You will see some red text. Dont worry it works after reboot.
+
+sudo systemctl disable --now dbus-broker.service
+
+sudo systemctl enable --now dbus.service
+
+sudo systemctl restart dbus.service
+
+-------------------------------
+
+Reboot ParrotOS - Reboot ParrotOS - Reboot ParrotOS - 2026
+
+-------------------------------
+
+Install fastfetch to look where you are.
+
+sudo apt install fastfetch
+
+Type in terminal: fastfetch
+
+
+ `:oho/-`SWEDEN                            OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for KDE 6 
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - KDE 6 Plasma desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory Linux US 16.33 GiB - Windows 11 33.42 GiB - KDE and ParrotOS
+                           d:              
+
+Extra Info about ParrotOS and WSLg.
+
+Architecture: x86_64
+Built: 2026-06-25 Time: 17:27:16
+OS: Microsoft Azure Linux 3.0 - Wayland
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+
+-------------------------------
+
+Install programs for ParrotOS 7.3 and KDE 6 Plasma - 2026
+
+sudo apt install bash git npm wget curl dracut dbus dialog rsync -y
+
+sudo apt install sddm* -y
+
+-------------------------------
+
+Next make sddm work for KDE 6. Copy and paste in terminal.
+
+sudo systemctl set-default graphical
+sudo systemctl enable sddm.service
+
+-------------------------------
+
+TIME TO INSTALL KDE 6 for PARROT OS 7.3 - THIS WILL TAKE SOME TIME. JUST PRESS ENTER IF ASKED.
+
+sudo apt install parrot-desktop-kde
+
+sudo apt install kde*
+
+sudo apt install codium
+
+sudo apt install kio*
+
+----------------------------------------------
+
+Install Tasksel for ParrotOS.
+
+sudo apt install tasksel
+
+Run Tasksel: sudo tasksel
+
+Select from menu Parrot Desktop Environment and KDE plasma: press enter.
+
+----------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress.
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+NOTE - Importent to look for ip-adress. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+SAVE IP FROM POWERSHELL HERE, YOU NEED IT LATER IN INSTALLATION OF MATE DESKTOP: 172.30.16.1
+
+NOW GO BACK TO Parrot OS 7.3 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip-number for WSL here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed Parrot OS 7.3 and KDE 6 =]
+
+-------------------------------------------------------------
+
+Install Chrome Browser. Latest Edition for Web - Parrot OS 7.3
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+ `:oho/-`SWEDEN                            OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for KDE 6 
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - KDE 6 Plasma desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory Linux US 16.33 GiB - Windows 11 33.42 GiB - KDE and ParrotOS
+                           d:              
+
+Extra Info about ParrotOS and WSLg.
+
+Architecture: x86_64
+Built: 2026-06-25 Time: 17:27:16
+OS: Microsoft Azure Linux 3.0 - Wayland
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+
+--------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking - Parrot OS 7.3
+
+sudo apt install blanket
+
+----------------------------------------------
+
+Visual studio code from Microsoft - Install via ParrotOS 7.3
+
+sudo apt-get install wget* gpg* -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https* http* -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Install LibreOffice for ParrotOS 7.3 - Nice Office SVIT.
+
+sudo apt install libreoffice
+
+----------------------------------------------
+
+Install Gimp so we can PAINT - ParrotOS 7.3
+
+sudo apt install gimp 
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal for Parrot OS 7.3
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Parrot OS 7.3 - Parrot OS 7.3 - Parrot OS 7.3 - Parrot OS 7.3
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot OS 7.3 - Reboot Reboot Reboot Parrot OS 7.3
+
+----------------------------------------------
+
+Time To Start KDE 6 via ParrotOS 7.3
+
+NOTE: FIRST START X410 THEN YOU START PARROTOS VIA TERMINAL.
+
+Copy and paste in TERMINAL.
+
+export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+export QT_XCB_GL_INTEGRATION=none
+
+Copy and paste in terminal for start of KDE: startplasma-x11
+
+IT TAKE SOME TIME TO START. JUST WAIT 1 min for KDE 6 to start - ParrotOS 7.3
+
+----------------------------------------------
+
+ParrotOS is build on DEBIAN - WSL - Experience the full power of ParrotOS running under Windows - WSL - 2026
+
+ `:oho/-`SWEDEN                            OS: Parrot Security 7.3 x86_64 - Parrot OS - 2026
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     Xserver: X410 So we have a desktop for KDE 6 
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  EMAIL: mattiasvinberg@duck.com
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                Host: Windows Subsystem for Linux - parrot (2.9.9.0)
+             /NMMMMMMMMMMMMMy`
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          
+                     /MMMMMMMMMMMs`        OS: Windows 11 Pro for Workstations (25H2) x86_64
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           Desktop for WSL - KDE 6 Plasma desktop via Parrot OS - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           ParrotOS desktop WSL: https://github.com/vinberg88/ParrotOS
+                         mMm -mN`          
+                         /MM  `h:          Find me here: https://github.com/vinberg88
+                          dM`   .          
+                          :M-              Memory Linux US 16.33 GiB - Windows 11 33.42 GiB - KDE and ParrotOS
+                           d:              
+
+Extra Info about ParrotOS and WSLg.
+
+Architecture: x86_64
+Built: 2026-06-25 Time: 17:27:16
+OS: Microsoft Azure Linux 3.0 - Wayland
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+
+Thanks you for watching Parrot OS for WSL. 
+
+Regards Mattias Vinberg - SWEDEN - STOCKHOLM - ParrotOS - KDE 6 - Windows 11 - X410 - Microsoft - Linux - 2026
+
+---------------------------------------------
