@@ -1,5 +1,12 @@
 # Parrot OS - WSL image for download and setup desktops
 
+News for ParrotOS. There is comming new version of ParrotOS for WSL and Normal user for ParrotOS. New name for Parrot0S is ParrotOS 7.4
+Summer is over, now it's time to get down to business: we're so happy to announce that Parrot 7.4 is coming very soon 🔜
+
+<img width="1200" height="627" alt="parrot7.4" src="https://github.com/user-attachments/assets/f68836ff-873e-4260-89e3-c3e719498f4e" />
+
+Look here for comming updates https://parrotsec.org/
+
 Download ParrotOS here for WSL: https://github.com/vinberg88/ParrotOS/releases/tag/7.0.3
 
 Parrot OS - Build diffrent desktops via ParrotOS and WSL - Parrots OS easy to work on and build from Debian. Build from KDE to GNOME desktop via WSL
