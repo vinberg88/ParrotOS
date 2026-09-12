@@ -18,9 +18,6 @@ to develop your own software or keep your data secure
 
 Look here for desktops via WSL (old) Building new page for Desktops and LINUX: https://github.com/vinberg88/opensuse
 
-
-<img width="737" height="354" alt="ParrotOS" src="https://github.com/user-attachments/assets/d10e505c-9b6a-4fb6-b5e9-84501189d901" />
-
 HERE I WILL PRESENT SOME DESKTOPS THAT WORK WELL VIA PARROTOS - Latest version.
 
 Install gnome desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
