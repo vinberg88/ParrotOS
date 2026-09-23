@@ -1,3 +1,5 @@
+<img width="969" height="278" alt="logo" src="https://github.com/user-attachments/assets/8ad8f443-f3a1-435b-a4dd-79d6dd37d95d" />
+
 # Parrot OS - WSL image for download and setup desktops
 
 News for ParrotOS. There is comming new version of ParrotOS for WSL and Normal user for ParrotOS. New name for Parrot0S is ParrotOS 7.4
