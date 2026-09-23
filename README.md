@@ -1,4 +1,7 @@
-<img width="969" height="278" alt="logo" src="https://www.xhamter.nu/logo.png" />
+<p align="center">
+<a href="https://github.com/vinberg88">
+<img width="950" height="278" alt="parrot" src="https://www.xhamster.nu/logo.png" />
+</p>
 
 # Parrot OS - WSL image for download and setup desktops
 
