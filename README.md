@@ -1,4 +1,4 @@
-<img width="969" height="278" alt="logo" src="https://github.com/user-attachments/assets/8ad8f443-f3a1-435b-a4dd-79d6dd37d95d" />
+<img width="969" height="278" alt="logo" src="https://www.xhamter.nu/logo.png" />
 
 # Parrot OS - WSL image for download and setup desktops
 
