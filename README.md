@@ -36,6 +36,8 @@ How to install GNOME via Parrot Security 7.3 - YOUTUBE https://www.youtube.com/w
 
 Install MATE desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/ParrotOS-7.3-MATE.txt
 
+How to install MATE Desktop via ParrotOS 7.3 - YOUTUBE https://www.youtube.com/watch?v=BtjgzPSpCN4
+
 <img width="1920" height="1080" alt="ParrotOS-7 3-MATE" src="https://github.com/user-attachments/assets/fdd38f41-094a-45a7-ab93-1b44938728a0" />
 
 Install KDE 6 via ParrrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-KDE6.txt
