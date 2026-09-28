@@ -10,7 +10,7 @@ Summer is over, now it's time to get down to business: we're so happy to announc
 
 <p align="center">
 <a href="https://github.com/vinberg88">
-<img width="1200" height="627" alt="parrot7.4" src="https://github.com/user-attachments/assets/f68836ff-873e-4260-89e3-c3e719498f4e" />
+<img width="800" height="250" alt="ParrotOS-BANNER" src="https://github.com/user-attachments/assets/13fcb19e-51d5-4060-9f94-4f8662bd3b6d" />
 </p>
   
 Look here for comming updates https://parrotsec.org/
