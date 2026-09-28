@@ -48,6 +48,8 @@ How to install KDE 6 via PARROT OS 7.3 - WSL - YOUTUBE https://www.youtube.com/w
 
 Install Cinnamon via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/ParrotOS-7.3-Cinnamon.txt
 
+How to install Cinnamon via ParrotOS 7.3 - YouTUBE https://www.youtube.com/watch?v=6McVGvgt5gE
+
 <img width="1920" height="1080" alt="ParrotOS-7 3-Cinnamon" src="https://github.com/user-attachments/assets/06c55c07-13ef-4380-b77d-79df9130a7f2" />
 
   
