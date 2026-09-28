@@ -30,6 +30,8 @@ HERE I WILL PRESENT SOME DESKTOPS THAT WORK WELL VIA PARROTOS - Latest version.
 
 Install gnome desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
 
+How to install GNOME via Parrot Security 7.3 - YOUTUBE https://www.youtube.com/watch?v=J1jZ1auCkxw
+
 <img width="1920" height="1080" alt="PARROT-7 3-GNOME" src="https://github.com/user-attachments/assets/7963b278-fbfe-4697-9b5a-2e4c0fd44c5c" />
 
 Install MATE desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/ParrotOS-7.3-MATE.txt
