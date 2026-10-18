@@ -31,10 +31,9 @@ HERE I WILL PRESENT SOME DESKTOPS THAT WORK WELL VIA PARROTOS - Latest version.
 
 ---
 
-Install gnome desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
+Install gnome desktop via ParrotOS 7.4 - https://github.com/vinberg88/ParrotOS/blob/main/PARROTOS-7.4-GNOME.txt
 
-How to install GNOME via Parrot Security 7.3 - YOUTUBE https://www.youtube.com/watch?v=J1jZ1auCkxw
-
+How to install GNOME via Parrot OS 7.4 - YOUTUBE - COMMING SONE...
 
 <p align="center">
 <a href="https://github.com/vinberg88/ParrotOS/releases">
