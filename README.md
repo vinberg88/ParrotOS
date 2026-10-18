@@ -1,3 +1,4 @@
+
 <p align="center">
 <a href="https://github.com/vinberg88">
 <img width="950" height="278" alt="parrot" src="https://www.xhamster.nu/logo.png" />
@@ -24,14 +25,25 @@ ParrotOS is a GNU/Linux distribution based on Debian and designed with Security,
 for all kinds of cyber security operations, from pentesting to digital forensics and reverse engineering, but it also includes everything you need
 to develop your own software or keep your data secure
 
-Look here for desktops via WSL (old) Building new page for Desktops and LINUX: https://github.com/vinberg88/opensus
+Look here for desktops via WSL DOR Linux https://github.com/vinberg88
 
 HERE I WILL PRESENT SOME DESKTOPS THAT WORK WELL VIA PARROTOS - Latest version.
 
+---
+
 Install gnome desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
 
+How to install GNOME via Parrot Security 7.3 - YOUTUBE https://www.youtube.com/watch?v=J1jZ1auCkxw
 
 
+<p align="center">
+<a href="https://github.com/vinberg88/ParrotOS/releases">
+<img width="1920" height="1080" alt="PARROTOS-7 4-GNOME" src="https://github.com/user-attachments/assets/b1871341-6765-4ebd-8c4c-7c402444c6c7" />
+</p>
+
+---
+
+Install gnome desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-GNOME.txt
 
 How to install GNOME via Parrot Security 7.3 - YOUTUBE https://www.youtube.com/watch?v=J1jZ1auCkxw
 
@@ -39,6 +51,8 @@ How to install GNOME via Parrot Security 7.3 - YOUTUBE https://www.youtube.com/w
 <a href="https://github.com/vinberg88/ParrotOS/releases">
 <img width="1920" height="1080" alt="PARROT-7 3-GNOME" src="https://github.com/user-attachments/assets/7963b278-fbfe-4697-9b5a-2e4c0fd44c5c" />
 </p>
+
+---
 
 Install MATE desktop via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/ParrotOS-7.3-MATE.txt
 
@@ -49,6 +63,8 @@ How to install MATE Desktop via ParrotOS 7.3 - YOUTUBE https://www.youtube.com/w
 <img width="1920" height="1080" alt="ParrotOS-7 3-MATE" src="https://github.com/user-attachments/assets/fdd38f41-094a-45a7-ab93-1b44938728a0" />
 </p>
 
+---
+
 Install KDE 6 via ParrrotOS https://github.com/vinberg88/ParrotOS/blob/main/PARROT-7.3-KDE6.txt
 
 How to install KDE 6 via PARROT OS 7.3 - WSL - YOUTUBE https://www.youtube.com/watch?v=8FAQJM9-OB4
@@ -58,6 +74,8 @@ How to install KDE 6 via PARROT OS 7.3 - WSL - YOUTUBE https://www.youtube.com/w
 <img width="1920" height="1080" alt="PARROT-7 3-KDE6" src="https://github.com/user-attachments/assets/6b41af49-74f7-4189-9476-9f76dff5182a" />
 </p>
 
+---
+
 Install Cinnamon via ParrotOS https://github.com/vinberg88/ParrotOS/blob/main/ParrotOS-7.3-Cinnamon.txt
 
 How to install Cinnamon via ParrotOS 7.3 - YouTUBE https://www.youtube.com/watch?v=6McVGvgt5gE
@@ -66,5 +84,7 @@ How to install Cinnamon via ParrotOS 7.3 - YouTUBE https://www.youtube.com/watch
 <a href="https://github.com/vinberg88/ParrotOS/releases">
 <img width="1920" height="1080" alt="ParrotOS-7 3-Cinnamon" src="https://github.com/user-attachments/assets/06c55c07-13ef-4380-b77d-79df9130a7f2" />
 </p>
+
+---
 
 Regards Mattias Vinberg - SWEDEN - MAIL: mattiasvinberg@duck.com - Find me: https://github.com/vinberg88 - 2026
