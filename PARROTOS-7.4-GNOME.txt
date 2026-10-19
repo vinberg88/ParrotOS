@@ -6,7 +6,7 @@ How to inställ GNOME 48 via via Parrot OS 7.4 and Windows - WSL - LINUX - TEXT 
 https://github.com/vinberg88/ParrotOS/blob/main/PARROTOS-7.4-GNOME.txt
 
 How to install GNOME 48 via Parrot OS 7.4 and Windows - WSL - LINUX - MOVIE VIA YOUTUBE
-Comminf SONE....
+https://www.youtube.com/watch?v=3ZwDCAoIDQ8
 
 TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026 - PARROT OS AND GNOME DESKTOP
 
